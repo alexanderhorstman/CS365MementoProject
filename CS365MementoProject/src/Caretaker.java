@@ -13,4 +13,12 @@ public class CareTaker {
 	        return seed.get( index );
 	    }
 	    
+	    public void printList(){
+	    	System.out.print("[");
+	    	for(Memento x :seed){
+	    		System.out.print(" " + x.getSeed() + " ");
+	    	}
+	    	System.out.println("]");
+	    }
+	    
 }

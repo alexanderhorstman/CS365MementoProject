@@ -20,6 +20,8 @@ public class MementoDriver {
 		System.out.println( "Originator state :"+ rng.getSeed());
 		careTaker.addMemento(rng.saveMemento());
 		
+		careTaker.printList();
+		
 		rng.restoreFromMemento(careTaker.getMemento(0));
 		System.out.println( "Originator state :"+ rng.getSeed());
 		

@@ -15,7 +15,7 @@ public class RNGSeed implements Originator {
 	}
 	
 	public void restoreFromMemento(Memento memento) {
-		seed = memento.getSavedSeed();
+		this.seed = memento.getSeed();
 	}
 }
 

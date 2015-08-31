@@ -1,16 +1,16 @@
 	 public class Memento {
 		 
-		 private static long seed;
+		 private long seed;
 	 
 	        public Memento(long seed) {
-	        	Memento.seed = seed;
+	        	this.seed = seed;
 	        }
 	 
-	        public long getSavedSeed() {
+	        public long getSeed() {
 	            return seed;
 	        }
 	        
-	        public void setState ( long seed){
+	        public void setState (long seed){
 	        	this.seed = seed;
 	        }
 	    }
