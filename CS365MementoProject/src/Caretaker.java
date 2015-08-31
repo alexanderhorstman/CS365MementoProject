@@ -18,7 +18,7 @@ public class CareTaker {
 	    	for(Memento x :seed){
 	    		System.out.print(" " + x.getSeed() + " ");
 	    	}
-	    	System.out.println("]");
+	    	System.out.println("]\n");
 	    }
 	    
 }
